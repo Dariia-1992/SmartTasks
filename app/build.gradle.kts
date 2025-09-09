@@ -61,6 +61,9 @@ dependencies {
     implementation(libs.rxjava)
     implementation(libs.rxandroid)
 
+    //nav
+    implementation(libs.androidx.hilt.navigation.compose)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
